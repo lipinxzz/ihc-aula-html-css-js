@@ -1,56 +1,26 @@
-div{
-    width: 100%;
-    border-radius: 2px;
-    border-color: lightgray;
-    border-style: dotted;
-}
-
-body{
-    background-image: url(batmovel.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+    height: 100%;
     background-position: center;
-    background-color: black;
+    background-size: cover;
+    background-color: darkblue;
 }
 
-#titulo{
+
+#titulo {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#imagem {
+    text-align: center;
+}
+
+#detalhes {
     text-align: center;
     color: white;
-}
-
-p{
-    font-style: normal;
     font-size: large;
-    color: white;
-    font-weight: 700;
-}
-
-#Dados1{
-    width: 50%;
-    margin-top: auto;
-    display: block;
-    height: 100%;
-}
-
-#Imagem{
-    width: 50%;
-    margin-top: auto;
-    display: block;
-    height: 100%;
-    padding-bottom: 0%;
-
-}
-
-.img-batman{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#DadosBox{
-    width: 100%;
-    padding: 0%;
-    display: inline-flex;
-    height: 400px;
-    padding-bottom: 0%;
+    font-weight: bold;
+    line-height: 1.6;
+    margin: 16px;
 }
