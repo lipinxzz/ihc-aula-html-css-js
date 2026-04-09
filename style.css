@@ -1,26 +1,36 @@
 body {
     height: 100%;
+    width: 100%;
+    background-image: url(FRESHPRINCE.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: darkblue;
 }
 
+div {
+    width: 700px;
+    margin: 0 auto;
+    background-color: greenyellow;
+    background-size: cover;
+    border-radius: 2px;
+}
 
 #titulo {
     color: white;
-    font-size: xx-large;
     text-align: center;
+    background-color: greenyellow;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 2px;
 }
 
-#imagem {
-    text-align: center;
-}
-
-#detalhes {
-    text-align: center;
+dl {
     color: white;
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
-    line-height: 1.6;
-    margin: 16px;
+}
+
+#favorito {
+    border-radius: 3px;
+    background-color: rgb(245, 182, 237);
 }
